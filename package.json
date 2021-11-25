@@ -1,0 +1,23 @@
+{
+  "name": "frontend-mentor-blogr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xDavid-Gabriel/FrontEnd-mentor-Blogr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xDavid-Gabriel/FrontEnd-mentor-Blogr/issues"
+  },
+  "homepage": "https://github.com/xDavid-Gabriel/FrontEnd-mentor-Blogr#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
