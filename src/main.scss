@@ -1,4 +1,86 @@
 $theme-colors: (
-  "primary": green,
+  "primary": hsl(0, 0%, 100%),
+  "secondary": hsl(208, 49%, 24%),
+  "success": hsl(356, 100%, 66%),
+  "info": hsl(237, 17%, 21%),
 );
+
+//BOTONES
+$btn-border-radius: 50px;
+
+//LA NAVEGACION
+$navbar-light-color: white;
+$navbar-light-toggler-border-color: none;
+$navbar-toggler-focus-width: 0;
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+/*Navbar*/
+/*Navbar*/
+.absolute-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.navbar-collapse {
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .editor > img {
+    height: 750px;
+    object-fit: cover;
+    object-position: left;
+  }
+  /*Seccion-4*/
+  .sec-4 > img {
+    height: 600px;
+    object-fit: cover;
+    object-position: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-lg-transparent {
+    background: transparent !important;
+  }
+
+  //Botones
+
+  .btn-lg-primary {
+    background: hsl(0, 0%, 100%) !important;
+    border: 0;
+  }
+
+  //Textos
+  .text-lg-primary {
+    color: hsl(0, 0%, 100%) !important;
+  }
+  .text-lg-success {
+    color: hsl(356, 100%, 66%) !important;
+  }
+}
+.primario {
+  /*Primary*/
+  color: hsl(356, 100%, 66%);
+  color: hsl(355, 100%, 74%);
+  color: hsl(208, 49%, 24%);
+}
+
+.neutral {
+  color: hsl(0, 0%, 100%);
+  color: hsl(240, 2%, 79%);
+  color: hsl(207, 13%, 34%);
+  color: hsl(240, 10%, 16%);
+}
+
+.gradient {
+  color: hsl(13, 100%, 72%);
+  color: hsl(353, 100%, 62%);
+}
+
+.gradient-2 {
+  color: hsl(237, 17%, 21%);
+  color: hsl(237, 23%, 32%);
+}

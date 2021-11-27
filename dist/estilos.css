@@ -1,0 +1,112 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.font-serif {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  color: hsl(207, 13%, 34%) #6c757d;
+  font-weight: 400;
+}
+.btn:focus {
+  box-shadow: none;
+}
+
+/*Header*/
+
+header {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 0 75px;
+  background: url(./assets/images/bg-pattern-intro-mobile.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+/*Botones*/
+.learn:hover {
+  color: hsl(356, 100%, 66%);
+}
+
+/*Seccion 3*/
+.s-3 {
+  margin-top: 8rem;
+  border-radius: 0px 100px 0px 100px;
+}
+.seccion-3 {
+  height: 500px;
+  background: url(./assets/images/bg-pattern-circles.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.celulares img {
+  position: absolute;
+  max-width: 280px;
+  top: -35%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*Footer*/
+.footer {
+  border-radius: 0 100px 0 0;
+}
+
+@media (min-width: 768px) {
+  /*Header*/
+  header {
+    background: url(./assets/images/bg-pattern-intro-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  /*Seccion-3*/
+  .seccion-3 {
+    height: 300px;
+  }
+  .celulares img {
+    max-width: 410px;
+    top: 50%;
+    left: -50px;
+    transform: translate(0, -50%);
+  }
+
+  /*Seccion-4*/
+  .s-4 {
+    margin-top: 8rem;
+  }
+  /*Footer*/
+  .footer {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /*Seccion-3*/
+  .seccion-3 {
+    height: 400px;
+  }
+  .celulares img {
+    max-width: 650px;
+    left: 1%;
+  }
+}
